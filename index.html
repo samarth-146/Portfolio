@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7322a3c99d.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header id="main_body">
+        <nav class="navbar">
+            <div class="left_part"><a href="#" id="Load_page">My Portfolio</a></div>
+            <div class="right_part">
+                <ul>
+                    <li><a href="#main_body">Home</a></li>
+                    <li><a href="#trial">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="left">
+                Hi,My Name is <span id="left_span">Samarth</span>
+                <div>And I am passionate in <br> <span id="element"></span>
+
+                    <!-- Load library from the CDN -->
+                    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+                    <!-- Setup and start animation! -->
+                    <script>
+                        var typed = new Typed('#element', {
+                            strings: ['Web Development', 'Learning New Languages', 'Data Structures And Algorithm'],
+                            typeSpeed: 50,
+                        });
+                    </script><br>
+                    <a href="/Codsoft/Offer letter.jpg" download id="download_button">Download CV</a>
+                </div>
+
+
+</body>
+</div>
+<div class="right">
+    <img src="/Codsoft/Portfolio/Personal1.jpg" alt="Loading...">
+</div>
+</section>
+<section class="trial" id="trial"></section>
+<section class="about">
+    <div id="left">
+        <img src="/Codsoft/Portfolio/Personal2.jpg" alt="Loading...">
+    </div>
+    <div id="right">
+        <h1>About Me</h1>
+        <div class="description">
+            Hi,I am Samarth Ganjawala.Currently I'm pursuing B.Tech Degree in Computer Engineering in Dharmsinh Desai
+            University Nadiad.I recently got a intersnship offer from Codsoft community. I am always eager to learn
+            something new from every person and every industry.
+        </div>
+        <div class="buttons">
+            <button id="skills">Skills</button>
+            <button id="education">Education</button>
+            <div id="show_skills">
+                <h2>Programming Language</h2>
+                <p>Have a skill in Programming Languages like C and C++ and keen to learn more</p>
+                <h2>Web Development/Designer</h2>
+                <p>Have a skill in HTML,CSS and JS and try to complete the whole MERN Stack</p>
+            </div>
+            <div id="show_education">
+                <h2>2020</h2>
+                <p>Completed SSC from Experimental School,Surat</p>
+                <h2>2022</h2>
+                <p>Completed HSC from Riverdale Academy,Surat</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<h2 class="my_project" id="projects">My Projects</h2>
+<section class="projects">
+    <div id="first_project" class="projects_box">
+        <img src="/Codsoft/Portfolio/developer1.png" alt="Loading...">
+        <div id="description1" class="projects_list">
+            <span id="Music_App" class="span_color">Music App <a href="/Calculator/index.html" target="_blank"><i
+                        class="fa-solid fa-link" style="color:#31cd90;"></i></a></span>
+            <span>I have made the Music Application using HTML CSS And JS</span>
+        </div>
+    </div>
+    <div id="second_project" class="projects_box">
+        <div class="music_app">
+            <img src="/Codsoft/Portfolio/developer2.png" alt="Loading">
+        </div>
+        <div id="description2" class="projects_list">
+            <span id="calc" class="span_color">Calculator App <a href="/Calculator/index.html" target="_blank"><i
+                        class="fa-solid fa-link" style="color:#31cd90;"></i></a></span>
+            <span>I have made the simple calculator using HTML CSS And JS</span>
+        </div>
+    </div>
+    <div id="third_project" class="projects_box">
+        <img src="/Codsoft/Portfolio/developer3.png" alt="Loading...">
+        <div id="description3" class="projects_list">
+            <span id="hotel_management" class="span_color">Hotel Management Website <a href="/Calculator/index.html"
+                    target="_blank"><i class="fa-solid fa-link" style="color:#31cd90;"></i></a></span>
+            <span>I have made the Hotel Management Website using HTML CSS JS And PHP</span>
+        </div>
+    </div>
+</section>
+
+</main>
+<footer class="site-footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <h3 style="text-align: center;">Contact Me</h3>
+            <div class="footer_contact">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-envelope"></i> <a href="mailto:samarthganjawala202@gmail.com"
+                            id="mail">samarthganjawala202@gmail.com</a></li>
+                    <li><i class="fa fa-phone"></i> +91 9724706418</li>
+                    <li><i class="fa fa-map-marker"></i> Surat, Gujarat, 395009</li>
+                </ul>
+                <ul class="list-inline">
+                    <li><a href="https://www.instagram.com/samarthganjawala/?next=%2F" target="_blank"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/samarth-ganjawala-b4016525b/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/samarth-146" target="_blank"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <div class="container">
+            <div class="row">
+                <div class="copyright">
+                    <p>&copy; 2023 Ganjawala Samarth. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let skills = document.getElementById('skills');
+    let education = document.getElementById('education');
+    let show_skills = document.getElementById('show_skills');
+    let show_education = document.getElementById('show_education');
+    show_education.style.display = 'none';
+    show_skills.style.display = 'none';
+    skills.addEventListener('click', func);
+    education.addEventListener('click', func1);
+    function func() {
+        show_skills.style.display = 'block';
+        show_education.style.display = 'none';
+        skills.style.backgroundColor = 'gray';
+        education.style.backgroundColor = '#007bff';
+    }
+    function func1() {
+        show_education.style.display = 'block';
+        show_skills.style.display = 'none';
+        education.style.backgroundColor = 'gray';
+        skills.style.backgroundColor = '#007bff';
+    }
+</script>
+<script>
+    let Load_page=document.getElementById('Load_page');
+    Load_page.addEventListener('click',function(event){
+        event.preventDefault();
+        location.reload();
+    })
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</body>
+
+</html>

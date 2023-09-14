@@ -1,0 +1,235 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(48 48 137);
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    position:fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    height: 4rem;
+    background-color: #1a2e64;
+    text-align: center;
+}
+.navbar{
+    background-color: rgba(26, 46, 100, 0.4);
+    transition: background-color 0.3s ease;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+ul li a:hover{
+    color: blueviolet;
+}
+.left_part{
+    font-size: 1.2rem;
+    /* background-color: red; */
+    text-align: center;
+    width:40%;
+    margin: 18px;
+}
+.left_part a{
+    text-decoration: none;
+    color: white;
+}
+.left_part a:hover{
+    color:blueviolet;
+}
+.right_part{
+    /* background-color: red; */
+    /* background-color: red; */
+    width:40%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+section{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    width:40%;
+    font-size: 2.6rem;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    width:40%;
+}
+.right img{
+    height: 60vh;
+    border-radius: 50%;
+}
+#left_span{
+    color:blueviolet
+}
+#element{
+    color:blueviolet   
+}
+#download_button{
+    font-size: 1.2rem;
+    color:white;
+    text-decoration: none;
+    width:10%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 12px 12px;
+    background-color: black;
+}
+#download_button:hover{
+    background-color:cadetblue;
+}
+.about{
+    /* background-color: red; */
+    margin: 15% 0;
+    display: flex;
+    justify-content: space-around;
+    height: 27rem;
+}
+#left{
+    display: flex;
+    overflow: hidden;
+    height: auto;
+    /* background-color: red; */
+    width:40%;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(62, 62, 62); */
+    width:60%;
+    font-size: 1.2rem;
+    padding: 0px 23px;
+}
+.about img{
+    border-radius: 12px;
+    height: auto;
+    margin: 0 23px;
+    height: 23rem;
+}
+.buttons{
+    margin:12px 2px;
+
+}
+.buttons button{
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white; 
+    cursor: pointer;
+}
+.buttons #skills{
+    background-color: #007bff;
+}
+#show_skills{
+    display:none;
+    margin: 12px;
+    height:18vh;
+    /* background-color: red; */
+}
+#show_skills h2{
+    font-size: 1.2rem;
+    color:#b10725;
+}
+#show_education{
+    margin: 12px;
+    height: 18vh;
+    padding: 0px 12px;
+}
+#show_education h2{
+    font-size: 1.2rem;
+    color:#b10725;
+} 
+.projects{
+    margin: 0px 12px;
+    /* background-color: red; */
+    height: 80vh;
+}
+#first_project{
+    margin: auto 0px;
+    height: 22rem;
+    width: 22%;
+    border-radius: 12px;
+    /* background-color: aqua; */
+}
+#second_project{
+    margin: auto 0px;
+    height: 22rem;
+    width: 22%;
+    /* background-color: bisque; */
+    border-radius: 12px;
+}
+#third_project{
+    margin: auto 0px;
+    height: 22rem;
+    width: 22%;
+    /* background-color: brown; */
+    border-radius: 12px;
+}
+.my_project{
+    text-align: center;
+    font-size: 1.6rem;
+}
+#first_project img{
+    height: 22rem;
+    overflow: hidden;
+    width: 100%;
+    /* border-radius: 12px; */
+}
+#second_project img{
+    height: 22rem;
+    overflow: hidden;
+    width:100%;
+    /* border-radius: 12px; */
+}
+#third_project img{
+    height: 22rem;
+    overflow: hidden;
+    width:100%;
+    /* border-radius: 12px; */
+}
+
+.projects_list{
+    display: flex;
+    flex-direction: column;
+}
+.span_color{
+    font-size: 1.3rem;
+    color:#b10725;
+}
+.site-footer{
+    margin: 100px 0px;
+    /* border-radius: 30px; */
+    background-color: black;
+    padding: 10px;
+
+}
+#mail:hover{
+    text-decoration: underline;
+}
+.footer_contact{
+    padding: 12px;
+}
