@@ -1,0 +1,128 @@
+body {
+  font-family: 'Arial', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+body.dark {
+  background-color: #1f1f1f;
+  color: #fff; 
+}
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+h1 {
+  color: #007BFF;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  margin: 7px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+li {
+  color: #333;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+.delete-expense {
+  background-color: #ff4444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.delete-expense:hover {
+  background-color: #cc0000;
+}
+.show_bar_graph{
+  position: absolute;
+  margin-top:600px ;
+  margin-right:0px ;
+}
+.expense-list {
+  /* padding: 10px; */
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.expense-list li {
+  color: #007BFF;
+  margin: 5px 0;
+  /* padding: 5px; */
+  /* background-color: #fff; Set the background color for each list item */
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+}

@@ -1,0 +1,3 @@
+[submodule "Analog-Clock"]
+	path = Analog-Clock
+	url = https://github.com/samarth-146/Analog-Clock.git

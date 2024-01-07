@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Expense Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <button id="dark-mode-button">Dark Mode</button>
+        <button id="reset-button">Reset Income</button>
+
+        <div class="section">
+            <h2>Income</h2>
+            <p id="income-display">₹0.00</p>
+            <input type="number" id="income" placeholder="Enter your income">
+            <button id="add-income">Add Income</button>
+        </div>
+
+        <div class="section">
+            <h2>Expenses</h2>
+            <ul id="expenses-list" class="expense-list"></ul>
+            <input type="text" id="expense-description" placeholder="Expense description">
+            <input type="number" id="expense-amount" placeholder="Expense amount">
+            <button id="add-expense">Add Expense</button>
+            <button id="show-graph">Show Graph</button>
+        </div>
+
+        <div class="section">
+            <h2>Remaining Balance</h2>
+            <p id="remaining-balance">₹0.00</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
